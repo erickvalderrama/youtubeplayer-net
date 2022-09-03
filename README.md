@@ -2,6 +2,14 @@
 
 Administrador de videos de Youtube que permite almacenar enlaces, borrarlos y reproducirlos.
 
+## Iniciar la app web
+
+1 - Necesitaras tener instalado Net. Framework 4.7.2 [Descargar aquí](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472)
+2 - Puedes correrlo en Visual Studio 2022 Community o versiones que soporten Net. Framework 4 - [Descargar aquí](https://visualstudio.microsoft.com/es/vs/community/)
+
+
+## ¿Que puedo hacer en la app web?
+
 - Agregar enlaces:
 
 ![alt text](https://raw.githubusercontent.com/erickvalderrama/youtubeplayer-net/main/Content/Images/Init.png)
@@ -27,3 +35,8 @@ y miniatura del video, puedes dar click en el icono de reproducir para ver el vi
 
 ![alt text](https://raw.githubusercontent.com/erickvalderrama/youtubeplayer-net/main/Content/Images/video.png)
 
+
+## Gracias
+
+
+-
