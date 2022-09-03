@@ -1,0 +1,127 @@
+﻿body {
+    background-color: #ededed;
+}
+
+.video-item {
+    height: 12rem;
+    width: 17rem;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+    flex: 0 0 25.333333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-item {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    right: 0.50rem;
+    top: 0.50rem;
+    background-color: black;
+    border-radius: 0.2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+}
+
+.duration-video {
+    height: 1.5rem;
+    width: 3rem;
+    position: absolute;
+    right: 0.8rem;
+    bottom: 0.50rem;
+    background-color: black;
+    border-radius: 0.2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.modal-backdrop {
+    background-color: #00000096 !important;
+}
+
+.container-videos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#video-preview-container {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 80%;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto !important;
+}
+
+#video-preview-button {
+    border-radius: 50%;
+    background-image: url('../Images/play.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 3rem;
+    width: 3rem;
+    background-size: 60% 60%;
+    background-color: #ff0000;
+}
+
+.btn-close {
+    color: black !important;
+    opacity: 1 !important;
+    font-size: 2.7rem !important;
+}
+
+#video-preview-info {
+    margin-left: 3rem;
+    height: 16rem;
+}
+
+#video-preview-description {
+    margin-top: 1.5rem;
+    height: 12rem;
+    overflow-y: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.1rem;
+    border: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ededed;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #ededed;
+    }
+
+.btn-search {
+    width: 15rem;
+}
+
+.video-player-container {
+    width: 100%;
+    height: 100%;
+}
